@@ -1,0 +1,55 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cf:before,
+.cf:after {
+	content: " ";
+    display: table;
+    clear: both;
+}
+.da-container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.da-carousel__list {
+	width: 10000px;
+	padding: 0;
+	position: relative;
+}
+.da-carousel__element {
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.da-carousel__element img {
+	max-width: 135px;
+}
+.da-carousel__hider {
+	width: 600px;
+	overflow: hidden;
+	float: left;
+}
+.da-carousel__arrow--left,
+.da-carousel__arrow--right {
+	float: left;
+	display: block;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    padding: 5px;
+    margin-top: 50px;
+}
+.da-carousel__arrow--left:hover,
+.da-carousel__arrow--right:hover {
+	 cursor: pointer;
+    background-color: grey;
+}
+.da-carousel__arrow--left {
+    margin-right: 25px;
+}
+
+.da-carousel__arrow--right {
+    margin-left: 25px;
+}
